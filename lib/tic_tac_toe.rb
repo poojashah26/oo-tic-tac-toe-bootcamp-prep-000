@@ -15,5 +15,3 @@ WIN_COMBINATIONS = [
   [2,4,6]
   ]
   
-  class TicTacToe
-    def WIN_COMBINATIONS

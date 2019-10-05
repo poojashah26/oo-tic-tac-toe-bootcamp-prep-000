@@ -85,7 +85,12 @@ class TicTacToe
  end
  
  def winner
-   
+  win_character = nil
+  if won?.class == Array
+    win_character = @board[won?[0]]
+  end
+  return win_character
+ end
 end 
  
  

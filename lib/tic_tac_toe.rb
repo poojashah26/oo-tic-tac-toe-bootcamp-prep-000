@@ -59,7 +59,7 @@ class TicTacToe
     end
  end
  
- def won?(board)
+ def won?
   WIN_COMBINATIONS.each_with_index do |element,index|
     if position_taken?(board,element[0]) == true
       if board[element[0]] == board[element[1]] && 

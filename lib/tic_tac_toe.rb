@@ -79,8 +79,4 @@ class TicTacToe
  def draw?
    won?(@board) == false && full?(@board) == true
  end
-
- def over?
-   won?(@board) || draw?(@board)
- end
 end
